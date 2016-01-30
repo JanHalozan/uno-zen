@@ -6,11 +6,9 @@ if [ -d "uno-zen" ]; then
   exit
 fi
 
-git clone https://github.com/Kikobeats/uno-zen.git && cd uno-zen
+git clone https://github.com/JanHalozan/uno-zen.git && cd uno-zen
 
 . "$PWD"/scripts/utils.sh
-
-welcome
 
 echo "Getting the repository tagged commits"
 git fetch --tags
